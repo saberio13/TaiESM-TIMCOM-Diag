@@ -1,12 +1,12 @@
 # Repository Summary - Climate Model Diagnostics
 
-## 📦 Complete Package Contents
+## Complete Package Contents
 
 This repository contains everything needed to run comprehensive climate model diagnostics for the TaiESM (Taiwan Earth System Model).
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 climate-model-diagnostics/
@@ -37,7 +37,7 @@ climate-model-diagnostics/
 
 ---
 
-## 📊 Script Capabilities Overview
+## Script Capabilities Overview
 
 ### 1. Sea Ice Concentration Analysis (`diag_ice.ncl`)
 
@@ -168,7 +168,7 @@ climate-model-diagnostics/
 
 ---
 
-## 🎯 Critical Points & Algorithms
+## Critical Points & Algorithms
 
 ### Sea Ice Script
 **Most Critical:** Pole hole treatment (Lines 127-155)
@@ -200,7 +200,7 @@ climate-model-diagnostics/
 
 ---
 
-## 🔧 Configuration Quick Reference
+## Configuration Quick Reference
 
 ### Standard Configuration Block (All Scripts)
 
@@ -251,7 +251,7 @@ plot_model_spatial = True
 
 ---
 
-## 📈 Workflow Recommendations
+## Workflow Recommendations
 
 ### Quick Validation (30 minutes)
 1. Set time period: 1990-2000 (10 years)
@@ -276,7 +276,7 @@ plot_model_spatial = True
 
 ---
 
-## 🚀 Getting Started (5 Steps)
+## Getting Started (5 Steps)
 
 ### Step 1: Install NCL
 ```bash
@@ -319,52 +319,6 @@ ls output/
 
 ---
 
-## 📚 Documentation Hierarchy
-
-### Level 1: Quick Start (5 minutes)
-→ Read: `docs/QUICKSTART.md`
-→ Goal: Run your first diagnostic
-
-### Level 2: Basic Usage (30 minutes)
-→ Read: Main `README.md`
-→ Goal: Understand all scripts, configure paths
-
-### Level 3: Advanced (2 hours)
-→ Read: `docs/SCRIPT_DETAILS.md`
-→ Goal: Understand algorithms, modify code
-
-### Level 4: Troubleshooting (as needed)
-→ Read: `docs/troubleshooting.md`
-→ Goal: Solve specific problems
-
-### Level 5: Workflows (1 hour)
-→ Read: `docs/workflow_guide.md`
-→ Goal: Design custom analysis workflows
-
----
-
-## 🎓 Learning Path
-
-### Beginner
-1. Read QUICKSTART.md
-2. Run precipitation script (simplest)
-3. Examine output files
-4. Try different time periods
-
-### Intermediate
-1. Run all four scripts
-2. Understand statistics output
-3. Modify color schemes
-4. Change analysis periods
-
-### Advanced
-1. Read SCRIPT_DETAILS.md
-2. Modify algorithms
-3. Add regional analysis
-4. Create custom workflows
-5. Integrate with other tools
-
----
 
 ## ⚠️ Common Pitfalls
 
@@ -388,32 +342,8 @@ ls output/
 **Symptom:** Wrong years processed or no data found
 **Solution:** Print time arrays, verify time format (YYYYMM vs calendar)
 
----
 
-## 📊 Expected Output Statistics
-
-### Typical Global Mean Values
-
-| Variable | Model Range | Obs Value | Acceptable Bias |
-|----------|-------------|-----------|-----------------|
-| Precipitation | 2.5-3.2 mm/day | ~2.7 mm/day | ±0.3 mm/day |
-| SAT | 13-16°C | ~14.5°C | ±1°C |
-| SST | 17-19°C | ~18°C | ±0.5°C |
-| NH Sea Ice Area | 10-15 × 10¹² m² | ~12 × 10¹² m² | ±2 × 10¹² m² |
-| SH Sea Ice Area | 8-14 × 10¹² m² | ~11 × 10¹² m² | ±2 × 10¹² m² |
-
-### Statistical Metrics Interpretation
-
-| Metric | Excellent | Good | Acceptable | Poor |
-|--------|-----------|------|------------|------|
-| Spatial Correlation | >0.95 | 0.90-0.95 | 0.80-0.90 | <0.80 |
-| RMSE (Precip) | <0.5 mm/day | 0.5-1.0 | 1.0-1.5 | >1.5 |
-| RMSE (Temp) | <0.5°C | 0.5-1.0 | 1.0-2.0 | >2.0 |
-| Bias (any) | <10% obs mean | 10-20% | 20-30% | >30% |
-
----
-
-## 🛠️ Customization Examples
+## Customization Examples
 
 ### Change Plot Title
 ```ncl
@@ -453,7 +383,7 @@ climo_year_end = 2010
 
 ---
 
-## 🔗 External Resources
+## External Resources
 
 ### NCL Resources
 - Main site: https://www.ncl.ucar.edu/
@@ -469,30 +399,6 @@ climo_year_end = 2010
 - GPCP: https://www.ncei.noaa.gov/products/global-precipitation-climatology-project
 - Berkeley Earth: http://berkeleyearth.org/
 - HadISST: https://www.metoffice.gov.uk/hadobs/hadisst/
-
----
-
-## 📝 Citation
-
-If using these scripts in research:
-
-```bibtex
-@software{climate_diagnostics_2025,
-  title = {Climate Model Diagnostics for TaiESM},
-  author = {[Your Institution]},
-  year = {2025},
-  url = {https://github.com/yourusername/climate-model-diagnostics},
-  version = {1.0}
-}
-```
-
----
-
-## 📞 Support
-
-- **Issues:** Open a GitHub issue
-- **Questions:** Check `docs/troubleshooting.md`
-- **NCL Help:** https://www.ncl.ucar.edu/support.shtml
 
 ---
 
