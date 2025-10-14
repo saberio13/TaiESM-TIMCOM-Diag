@@ -1,10 +1,5 @@
 ;=======================================================================
-; TaiESM TIMCOM vs GPCP Precipitation Comparison Script (Improved Version)
-; This script compares model precipitation with observational data
-; including adaptive grid handling, spatial plots, time series, and statistics
-;
-; Author: Modified from original script
-; Date: 2025
+; TaiESM TIMCOM vs GPCP Precipitation Comparison Script
 ;=======================================================================
 
 begin
