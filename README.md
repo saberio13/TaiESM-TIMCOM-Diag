@@ -38,7 +38,7 @@ These diagnostic scripts are designed to:
 ## Repository Structure
 
 ```
-climate-model-diagnostics/
+TaiESM-TIMCOM-Diags/
 ├── README.md                     # This file - main documentation
 ├── LICENSE                       # License information
 ├── scripts/                      # Main diagnostic scripts
@@ -102,8 +102,8 @@ ncl -V
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/climate-model-diagnostics.git
-cd climate-model-diagnostics
+git clone https://github.com/yourusername/TaiESM-TIMCOM-Diags.git
+cd TaiESM-TIMCOM-Diags
 ```
 
 ### 2. Prepare Your Data
@@ -545,7 +545,7 @@ If you use these scripts in your research, please cite:
   title = {Climate Model Diagnostics for TaiESM},
   author = {[Your Name/Team]},
   year = {2025},
-  url = {https://github.com/yourusername/climate-model-diagnostics}
+  url = {https://github.com/yourusername/TaiESM-TIMCOM-Diags}
 }
 ```
 
@@ -573,6 +573,6 @@ If you use these scripts in your research, please cite:
 
 ---
 
-**Last Updated:** January 2025  
-**Repository:** https://github.com/yourusername/climate-model-diagnostics  
-**Documentation:** https://yourusername.github.io/climate-model-diagnostics
+**Last Updated:** October 2025  
+**Repository:** https://github.com/yourusername/TaiESM-TIMCOM-Diags  
+**Documentation:** https://yourusername.github.io/TaiESM-TIMCOM-Diags
