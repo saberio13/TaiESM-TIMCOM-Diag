@@ -1,4 +1,6 @@
 # Climate Model Diagnostics - TaiESM Analysis Scripts
+# D13249005
+# d13249005@ntu.edu.tw
 
 [![NCL Version](https://img.shields.io/badge/NCL-6.6.2+-blue.svg)](https://www.ncl.ucar.edu/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
