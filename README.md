@@ -574,5 +574,5 @@ If you use these scripts in your research, please cite:
 ---
 
 **Last Updated:** October 2025  
-**Repository:** https://github.com/yourusername/TaiESM-TIMCOM-Diags  
-**Documentation:** https://yourusername.github.io/TaiESM-TIMCOM-Diags
+**Repository:** https://github.com/saberio13/TaiESM-TIMCOM-Diags  
+**Documentation:** https://saberio13.github.io/TaiESM-TIMCOM-Diags
