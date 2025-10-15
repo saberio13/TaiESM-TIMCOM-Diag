@@ -26,9 +26,9 @@ climate-model-diagnostics/
 │   ├── troubleshooting.md            # Common issues & solutions (14KB)
 │   └── workflow_guide.md             # Workflows & best practices (12KB)
 │
-├── examples/                          # Example output structure
-│   ├── figures/                      # Sample visualizations
-│   └── statistics/                   # Sample statistics files
+├── examples/                        
+│   ├── figures                 
+│   
 │
 └── .github/
     └── workflows/
@@ -320,7 +320,7 @@ ls output/
 ---
 
 
-## ⚠️ Common Pitfalls
+##  Common Pitfalls
 
 ### Pitfall 1: Wrong File Paths
 **Symptom:** "File not found" errors
@@ -402,7 +402,7 @@ climo_year_end = 2010
 
 ---
 
-## ✅ Pre-Flight Checklist
+##  Pre-Flight Checklist
 
 Before running scripts:
 
@@ -419,6 +419,6 @@ Before running scripts:
 **Repository Version:** 1.0  
 **Total Lines of Code:** ~2,060 lines (NCL scripts)  
 **Total Documentation:** ~100KB (Markdown files)  
-**Last Updated:** January 14, 2025
+**Last Updated:** October 14, 2025
 
-**Ready to analyze climate models! 🌍🔬**
+**Ready to analyze climate models!**
